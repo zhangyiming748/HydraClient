@@ -5,6 +5,8 @@
 #find . -name "*.go" -exec gofmt -w {} \;
 #echo 删除多余隐藏文件
 #find . -name ".DS_Store" -exec rm {} \;
+go mod tidy
+go mod vendor
 echo 编译二进制文件
 CGO_ENABLED=0 GOOS=linux GOARCH=386 go build -o forLinux32 main.go
 CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o forLinux64 main.go
