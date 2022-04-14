@@ -1,0 +1,26 @@
+# 忽略 vendor 文件夹
+vendor
+# 忽略 test 文件夹
+test
+# 忽略 idea 文件夹
+.idea
+# 忽略媒体文件
+users.txt
+info.txt
+*.mp4
+done
+# 忽略日志文件
+*.log
+# 忽略macos文件
+.DS_Store
+# 忽略测试文件
+*_test.go
+# 忽略测试中产生的文件
+forAndroid
+forLinux32
+forLinux64
+forM1
+forMac
+forRaspi
+forWin32.exe
+forWin64.exe

